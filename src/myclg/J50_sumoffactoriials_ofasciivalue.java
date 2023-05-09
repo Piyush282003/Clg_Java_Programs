@@ -5,7 +5,9 @@ import java.math.BigInteger;
 public class J50_sumoffactoriials_ofasciivalue {
     public static void main(String[] args) {
         String s="aBc";
-        BigInteger sum = null;                            //isse initialize bhi krna hoga yrr
+        BigInteger sum = new BigInteger("0");                            //isse initialize bhi krna hoga yrr
+//        OR
+//        BigInteger sum=null;
         for(int i=0;i<s.length();i++){
             int c=s.charAt(i);
             BigInteger b=BigInteger.ONE;
